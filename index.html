@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroDodge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blur-layer" id="blur-layer"></div>
+    <img class="titleImg" src="./imgs/AstroDodge.svg" alt="AstroDodge">
+    <script src="main.js"></script>
+    <button class="start-btn" onclick="start()"><b>START</b></button>
+    <div class="controls-hint">
+        <p>MOVE: LEFT / RIGHT ARROWS</p>
+        <p>FLIP: TOP ARROW</p>
+        <p>SLOW-MO: DOWN ARROW</p>
+        <p>FIRE: SPACEBAR</p>
+    </div>
+    <div class="loseWnd" id="loseWnd">
+        <p><b>YOU LOSE</b></p>
+        <button class="start-btn" onclick="location.reload()">MAIN MENU</button>
+    </div>
+    <div class="info">
+        <p id="bestScore"></p>
+        <p id="kmPassed"></p>
+        <p id="ammo"></p>
+    </div>
+</body>
+</html>
