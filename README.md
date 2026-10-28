@@ -28,4 +28,4 @@
 
 ## 🖼️ Screenshots
 
-<img src="astrododge-screenshots/main-menu.png" width=300> <img src="astrododge-screenshots/process.png" width=300> <img src="astrododge-screenshots/lose.png" width=300>
+<img src="astrododge-screenshots/main-menu.png" width=250> <img src="astrododge-screenshots/process.png" width=250> <img src="astrododge-screenshots/lose.png" width=250>
