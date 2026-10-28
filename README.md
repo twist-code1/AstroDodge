@@ -25,3 +25,7 @@
 ## ⚠️ Compatibility
 * **Desktop only.** No mobile/touch support yet.
 * Requires a local server (CORS) for local dev.
+
+## 🖼️ Screenshots
+
+<img src="astrododge-screenshots/main-menu.png"> <img src="astrododge-screenshots/process.png"> <img src="astrododge-screenshots/lose.png">
